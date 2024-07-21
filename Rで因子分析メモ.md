@@ -1,20 +1,24 @@
-1.Rのダウンロード
+# R で因子分析をするまでのメモ
+
+## インストールまで
+
+### (1).Rのダウンロード
 https://cran.rstudio.com/bin/windows/base/
 
-2.R Studioのダウンロード
+### (2).R Studioのダウンロード
 https://posit.co/download/rstudio-desktop/#download
 
-3.R Markdownの有効化
+### (3).R Markdownの有効化
 File -> NewFile -> R Markdown
 (自動でダウンロード、インストールされる)
 
-4.ggplotのインストール
-install.packages("tidyverse")
-library(tidyverse)
+### (4).ggplotのインストール
+\# tidyverseパッケージをインストールして有効化
+install.packages("tidyverse")  
+library(tidyverse)  
 
-====================================
-因子分析
-====================================
+## 因子分析する
+
 # (1) ファイルの読み込み
 w1 <- read.csv("C:/Users/temoc/Desktop/seiketsu.csv")
 
