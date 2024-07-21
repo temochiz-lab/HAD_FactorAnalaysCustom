@@ -1,5 +1,5 @@
 # HAD_FactorAnalaysCustom
-HADを因子分析用にカスタマイズしました。　バージョンは18_006ですが、シートの複製で別バージョンもいけると思います。
+HADを因子分析用にカスタマイズしました。　ベースになっているバージョンは18_006ですが、シートの複製で別バージョンもいけると思います。
 ## 用途
 
 ## 使い方
@@ -11,7 +11,7 @@ https://github.com/temochiz-lab/HAD_FactorAnalaysCustom/tree/main
 
 ### ライセンスについて
 本家HADに従ってGPL になります。　コピーレフトなのをご理解の上でご利用ください。
-HADのライセンス(https://osf.io/32cyp/wiki/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9/)
+[HADのライセンス](https://osf.io/32cyp/wiki/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9/)
 
 ### 謝辞と引用元
 清水先生、HADの開発と配布ありがとうございます。  
