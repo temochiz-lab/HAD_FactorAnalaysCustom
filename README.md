@@ -1,7 +1,7 @@
 # HAD_FactorAnalaysCustom
 HADを因子分析用にカスタマイズしました。　バージョンは18_006ですが、シートの複製で別バージョンもいけると思います。
 
-!screenshot.png
+![スクショ](screenshot.png)
   
 例示のデータは   
 研究事例で学ぶSPSSとAmosによる心理・調査データ解析 第3版 小塩真司 著　  
