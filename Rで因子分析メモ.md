@@ -41,6 +41,10 @@ ggplot() + geom_point(aes(x = x, y = y)) + geom_line(aes(x = x, y = y)) + geom_h
 \# 3因子でやってみた場合  
 fit <- factanal(w1, factors = 3, rotation = "promax")  
   
+![スクショ](pic/r2.png)  
+  
+### (5) 削除候補の変数を探す  
+    
 \# 因子負荷行列の抽出  
 loadings <- fit$loadings  
   
@@ -49,8 +53,6 @@ loadings_df <- as.data.frame(as.table(loadings))
   
 \# データフレームの確認  
 print(head(loadings_df))  
-  
-### (5) 削除候補の変数を探す  
   
 \# 各因子の負荷量をVar2でソートし、次にFreqの絶対値でソート  
 sorted_loadings <- loadings_df %>% arrange(Var2, desc(abs(Freq)))  
@@ -61,6 +63,9 @@ filtered_loadings <- sorted_loadings %>% group_by(Var1) %>% filter(all(abs(Freq)
 \# 抽出された行の表示  
 print("Filtered Loadings (All Freq <= 0.40):")  
 print(filtered_loadings)  
+
+![スクショ](pic/r3.png)  
+
 
 ```
 # (1) ファイルの読み込み
