@@ -14,7 +14,7 @@ https://posit.co/download/rstudio-desktop/#download
 \# 下記メニューから選択  
 File -> NewFile -> R Markdown
   
-### (4).ggplotのインストール  
+### (4) ggplotのインストール  
 \# tidyverseパッケージをインストールして有効化  
 install.packages("tidyverse")  
 library(tidyverse)  
