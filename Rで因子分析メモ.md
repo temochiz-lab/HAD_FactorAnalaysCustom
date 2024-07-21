@@ -35,8 +35,7 @@ x <- 1:length(y)
 library(tidyverse)  
 \# プロットを確認  
 ggplot() + geom_point(aes(x = x, y = y)) + geom_line(aes(x = x, y = y)) + geom_hline(yintercept = 1)  
-!(スクショ)[pic/r1.png]
-
+![スクショ](pic/r1.png)
   
 ### (4) 因子分析  
 \# 3因子でやってみた場合  
