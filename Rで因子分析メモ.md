@@ -60,3 +60,6 @@ filtered_loadings <- sorted_loadings %>% group_by(Var1) %>% filter(all(abs(Freq)
 \# 抽出された行の表示  
 print("Filtered Loadings (All Freq <= 0.40):")  
 print(filtered_loadings)  
+
+## その他メモ
+・スクリプトの実行は、"Source"、1ステップ実行が"Run"
